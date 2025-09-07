@@ -1,0 +1,50 @@
+# Flutter / Dart
+.dart_tool/
+.packages
+.pub-cache/
+.pub/
+build/
+coverage/
+**/generated_plugin_registrant.dart
+
+# Symbolication / obfuscation
+app.*.symbols
+
+# IntelliJ / Android Studio
+.idea/
+*.iml
+
+# VS Code
+.vscode/
+
+# iOS / macOS
+ios/Flutter/.last_build_id
+ios/Pods/
+ios/.symlinks/
+ios/Flutter/Flutter.framework/
+ios/Flutter/Flutter.podspec
+ios/ServiceDefinitions.json
+macos/Pods/
+macos/Flutter/ephemeral/
+
+# Android
+android/.gradle/
+android/app/key.jks
+android/key.properties
+*.keystore
+
+# Linux
+linux/flutter/ephemeral/
+
+# Windows
+windows/flutter/ephemeral/
+
+# Web build output
+build/web/
+
+# Firebase / secrets
+*.secret
+*.env
+
+# Vercel
+.vercel/
