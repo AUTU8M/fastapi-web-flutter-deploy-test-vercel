@@ -9,17 +9,15 @@ coverage/
 # Symbolication / obfuscation
 app.*.symbols
 
-# IntelliJ / Android Studio
+# IDEs
 .idea/
 *.iml
-
-# VS Code
 .vscode/
 
 # iOS / macOS
-ios/Flutter/.last__id
 ios/Pods/
 ios/.symlinks/
+ios/Flutter/.last__id
 ios/Flutter/Flutter.framework/
 ios/Flutter/Flutter.podspec
 ios/ServiceDefinitions.json
@@ -38,13 +36,13 @@ linux/flutter/ephemeral/
 # Windows
 windows/flutter/ephemeral/
 
-# Build output
-build/*
-!build/web/
-
 # Firebase / secrets
 *.secret
 *.env
 
 # Vercel
 .vercel/
+
+# Build output
+build/*
+!build/web/
