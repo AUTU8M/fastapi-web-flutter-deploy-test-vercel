@@ -3,7 +3,6 @@
 .packages
 .pub-cache/
 .pub/
-/
 coverage/
 **/generated_plugin_registrant.dart
 
@@ -39,7 +38,9 @@ linux/flutter/ephemeral/
 # Windows
 windows/flutter/ephemeral/
 
-
+# Build output
+build/*
+!build/web/
 
 # Firebase / secrets
 *.secret
