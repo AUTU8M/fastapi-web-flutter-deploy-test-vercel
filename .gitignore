@@ -3,7 +3,7 @@
 .packages
 .pub-cache/
 .pub/
-build/
+/
 coverage/
 **/generated_plugin_registrant.dart
 
@@ -18,7 +18,7 @@ app.*.symbols
 .vscode/
 
 # iOS / macOS
-ios/Flutter/.last_build_id
+ios/Flutter/.last__id
 ios/Pods/
 ios/.symlinks/
 ios/Flutter/Flutter.framework/
@@ -39,8 +39,7 @@ linux/flutter/ephemeral/
 # Windows
 windows/flutter/ephemeral/
 
-# Web build output
-build/web/
+
 
 # Firebase / secrets
 *.secret
